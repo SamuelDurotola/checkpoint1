@@ -1,0 +1,40 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    background-color: aqua;
+
+    
+}
+.title a{
+    color: red;
+    margin: 0 15px;
+    padding: 5px;
+    text-decoration: none;
+    
+}
+.title a:hover{
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+h1{
+    font-family: 'roboto';
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+.pix{
+    width: 400px;
+    align-items: center;
+}
+#video{
+    width: 30px;
+}
+
+/* styling oc contact page */
+.pic{
+    width: 30vw;
+}

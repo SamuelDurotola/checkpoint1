@@ -3,40 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tower centre</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
 </head>
 <body>
     <!--Navbar-->
     <header>
-        <nav>
+       <p class="title"><a href="about.html">about</a></p> 
+       <p class="title"><a href="work.html">work</a></p> 
+       <p class="title"><a href="resume.html">resume</a></p> 
+       <p class="title"><a href="contact.html">contact</a></p> 
         
-        <a href="">home</a>
-        <a href="">about</a>
-        <a href="">work</a>
-        <a href="">resume</a>
-        <a href="">contact</a>
-        </nav>
     </header>
     <!--main part-->
     <main>
-       <h1 style="color: blue;">About</h1>
-       <p><h2>Tower Maintenance Services</h2></p>
-       <P><h4>We offer tower torqueing for your telecommunication mast to keep your towers strong and firm</h4></P>
-      <img src="res/tower.png" alt="">
-      <img src="res/tower2.png" alt="">
-      <..! a video upload below..>
-      <p><video controls src="res/voice.mp4"></video></p>
+    
+       <h1>Tower of Strength Nigeria Limited</h1>
+       <P><h4>We offer tower maintenance for your telecommunication mast to keep your towers strong and firm.</h4></P>
+      <img class="pix" src="res/tower.png" alt="">
+      <img class="pix"src="res/tower2.png" alt="">
+      <!-a video upload below..>
+      <p id="video"><video controls src="res/voice.mp4"></video></p>
       <!--form-->
       <p><form>
-        <label>Name</label>   
+        <label>Tower Site ID</label>   
         <input type='text'><p>
         <label>Address</label>   
         <input type='text'>
     </p>
-        <label>Gender:</label>
+        <label>Height:</label>
         <select id="select">
-         <option>Male</option>
-         <option>Female</option>
+         <option>80m</option>
+         <option>75m</option>
+         <option>70m</option>
+         <option>65m</option>
         </select>
         <input type='submit'>    
        </form></p>
